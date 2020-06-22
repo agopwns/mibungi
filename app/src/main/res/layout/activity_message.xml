@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorOpacity0"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/msg_chat_room_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="userId"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/msg_chat_room_rv"
+        android:layout_width="match_parent"
+        android:layout_height="665dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/msg_chat_room_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="보낼 메세지를 입력해주세요."
+            />
+
+        <Button
+            android:id="@+id/msg_chat_room_send_btn"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:text="보내기"
+            android:textSize="16dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPantoneBlue"
+            android:layout_marginRight="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

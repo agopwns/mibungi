@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorPantoneBlue"
+    >
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/topbar_chat_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_chat_black_24dp"
+        android:layout_gravity="right|center"
+        />
+
+
+</LinearLayout>

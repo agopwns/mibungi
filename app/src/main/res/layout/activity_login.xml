@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/login_button_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/selector_sample"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="로그인"
+            android:textColor="@color/colorPantoneBlue"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <!-- 아이디 -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="아이디"
+                android:maxLength="10"
+                android:textColor="@color/colorPantoneBlue"
+                android:textSize="18dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 비밀번호 -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="비밀번호"
+                android:inputType="textPassword"
+                android:maxLength="16"
+                android:textColor="@color/colorPantoneBlue"
+                android:textSize="18dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 비밀번호 확인 -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:theme="@style/TextLabel"
+            android:textColorHint="@color/colorPantoneBlue"
+            >
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+            <!-- 로그인 버튼 영역 -->
+            <LinearLayout
+                android:id="@+id/login_area_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="로그인"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorPantoneBlue"/>
+                <ImageButton
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/selector_sample"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_check_black_24dp" />
+            </LinearLayout>
+
+            <!-- 회원가입 버튼 영역 -->
+            <LinearLayout
+                android:id="@+id/login_area_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="회원가입"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorPantoneBlue"/>
+
+                <ImageButton
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/selector_sample"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_fiber_new_black_24dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

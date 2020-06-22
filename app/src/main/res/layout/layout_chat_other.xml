@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/chat_layout_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/chat_layout_userId_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="userId"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"/>
+
+
+        <TextView
+            android:id="@+id/chat_layout_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/colorChatOther"
+            android:text="채팅 내역입니다....채팅 내역입니다....채팅 내역입니다....채팅 내역입니다....채팅 내역입니다...."
+            android:textSize="14dp"
+            android:textColor="@color/colorBlack"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

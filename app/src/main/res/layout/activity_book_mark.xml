@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <!-- 북마크 액티비티에는 검색바가 빠지고 리사이클러뷰와 아래 메뉴바만 남김 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bookmark_rv_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="760dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <include
+        android:id="@+id/chat_friend_underbar"
+        layout="@layout/include_layout_underbar"
+        />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPantoneBlue"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_under_chart"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/ic_trending_up_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button_under_news"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/ic_public_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button_under_search"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/ic_search_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button_under_star"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/ic_bookmark_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/button_user_profile"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/ic_thumb_up_black_24dp" />
+    </LinearLayout>
+
+</LinearLayout>

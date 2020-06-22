@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPantoneLightBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 텍스트 인풋 레이아웃은 따로 스타일을 만들어서 지정해야 힌트 컬러 등의 스타일이 변경됨 -->
+    <style name="TextLabel" parent="Widget.Design.TextInputLayout">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorPantoneBlue</item>
+        <item name="errorTextAppearance">@color/colorPantoneBlue</item>
+        <item name="android:textColor">@color/colorPantoneBlue</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="android:colorActivatedHighlight">@color/colorPantoneBlue</item>
+        <item name="colorAccent">@color/colorPantoneBlue</item>
+        <item name="colorControlNormal">@color/colorPantoneBlue</item>
+        <item name="colorControlActivated">@color/colorPantoneBlue</item>
+    </style>
+
+</resources>
