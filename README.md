@@ -7,7 +7,7 @@
   
 ## 스크린샷
 <div style="float:left;">
-  <img src="https://https://user-images.githubusercontent.com/29882066/85378284-4dd7a280-b575-11ea-8aa1-78a7123ac73d.png" alt="Your image title" width="290"/> 
+  <img src="https://user-images.githubusercontent.com/29882066/85378284-4dd7a280-b575-11ea-8aa1-78a7123ac73d.png" alt="Your image title" width="290"/> 
   <img src="https://user-images.githubusercontent.com/29882066/85378281-4d3f0c00-b575-11ea-994f-788d2a9ddc79.png" alt="Your image title" width="290"/>
   <img src="https://user-images.githubusercontent.com/29882066/85378276-4b754880-b575-11ea-92d4-c78e2dd35fb8.png" alt="Your image title" width="290"/>
   <img src="https://user-images.githubusercontent.com/29882066/85378277-4c0ddf00-b575-11ea-810a-c9335d51a256.png" alt="Your image title" width="290"/>
@@ -18,7 +18,11 @@
 
 ## 기능
   - 세계 주요 지수
-  - 
+  - 뉴스 기사(크롤링)
+  - 뉴스 타이틀 감정 분석
+  - 기업 검색
+  - 기업 상세 정보
+  - 저평가 기업 추천
 
 ## 사용 기술
   - AWS EC2 
