@@ -7,13 +7,15 @@
   
 ## 스크린샷
 <div style="float:left;">
-  <img src="https://user-images.githubusercontent.com/29882066/85378284-4dd7a280-b575-11ea-8aa1-78a7123ac73d.png" alt="Your image title" width="290"/> 
-  <img src="https://user-images.githubusercontent.com/29882066/85378281-4d3f0c00-b575-11ea-994f-788d2a9ddc79.png" alt="Your image title" width="290"/>
-  <img src="https://user-images.githubusercontent.com/29882066/85378276-4b754880-b575-11ea-92d4-c78e2dd35fb8.png" alt="Your image title" width="290"/>
-  <img src="https://user-images.githubusercontent.com/29882066/85378277-4c0ddf00-b575-11ea-810a-c9335d51a256.png" alt="Your image title" width="290"/>
-  <img src="https://user-images.githubusercontent.com/29882066/85378280-4ca67580-b575-11ea-83b6-6ea2c6f497d7.png" alt="Your image title" width="290"/>
- <img src="https://user-images.githubusercontent.com/29882066/85378272-49ab8500-b575-11ea-96bc-f139305f9e12.png" alt="Your image title" width="440"/>
- <img src="https://user-images.githubusercontent.com/29882066/85378275-4b754880-b575-11ea-8d24-3d1143acc44e.png" alt="Your image title" width="440"/>
+  <img src="https://user-images.githubusercontent.com/29882066/85378284-4dd7a280-b575-11ea-8aa1-78a7123ac73d.png" alt="Your image title" width="33%"/> 
+  <img src="https://user-images.githubusercontent.com/29882066/85378281-4d3f0c00-b575-11ea-994f-788d2a9ddc79.png" alt="Your image title" width="33%"/>
+  <img src="https://user-images.githubusercontent.com/29882066/85378276-4b754880-b575-11ea-92d4-c78e2dd35fb8.png" alt="Your image title" width="33%"/>
+  <img src="https://user-images.githubusercontent.com/29882066/85378277-4c0ddf00-b575-11ea-810a-c9335d51a256.png" alt="Your image title" width="33%"/>
+  <img src="https://user-images.githubusercontent.com/29882066/85378280-4ca67580-b575-11ea-83b6-6ea2c6f497d7.png" alt="Your image title" width="33%"/>
+</div>
+<div style="float:left;">
+  <img src="https://user-images.githubusercontent.com/29882066/85378272-49ab8500-b575-11ea-96bc-f139305f9e12.png" alt="Your image title" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/29882066/85378275-4b754880-b575-11ea-8d24-3d1143acc44e.png" alt="Your image title" width="49%"/>
 </div>
 
 ## 기능
